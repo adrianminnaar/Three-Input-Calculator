@@ -1,8 +1,18 @@
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(30, 32, 31);
+    font-family: Arial, Helvetica, sans-serif;color: black;
+    background-color: white;
     text-align: center;
+    border: solid 15px;color: black;
+    
+}
+#h1{
+    background-color: rgb(188, 192, 192);
+    padding: 5%;
     
 }
 
+#if{
+    margin-bottom: 5px;
+    
+}
