@@ -12,7 +12,18 @@ body {
     
 }
 
-#if{
+#ifButton{
     margin-bottom: 5px;
     
+}
+#plus{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#multiple{
+    text-align: bottom;
+}
+#equal{
+    width: 60px;
 }
