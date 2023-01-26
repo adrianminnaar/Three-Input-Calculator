@@ -27,10 +27,8 @@ else {
 }
 
 
-// display the result
+// Output of calculator
 
-userinput = window.prompt(`${number1} ${userinput} ${number2} = ${result}`); 
+userinput = prompt(`${number1} ${userinput} ${number2} = ${result}`); 
 
-function reset(){
-    document.getElementById('number1').reset();
-}
+

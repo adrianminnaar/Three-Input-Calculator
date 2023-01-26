@@ -7,7 +7,8 @@ const userinput = prompt('Enter operator ( either +, -, * or / ): ');
 
 const number2 = parseFloat(prompt('Enter second number: '));
 
-// Switch Statements
+// Switch Statements and
+// Output of calculator
 
 let result;
 switch (userinput) {
