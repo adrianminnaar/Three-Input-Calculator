@@ -1,26 +1,10 @@
 
 
-// take the operator input
-const userinput = prompt('Enter operator ( either +, -, * or / ): ');
-
-
-
 // take the User input
+
 const number1 = parseFloat(prompt('Enter first number: '));
-if (typeof userinput=== 'number') {
-    console.log('Its a number');
-    
-    }
-    else{
-        alert('Please enter a number')
-    }
 
-if () {
-
-    const number1 = parseFloat(prompt('Enter first number: '));
-} else {
-    
-}
+const userinput = prompt('Enter operator ( either +, -, * or / ): ');
 
 const number2 = parseFloat(prompt('Enter second number: '));
 
@@ -35,11 +19,18 @@ else if (userinput == '-') {
 }
 else if (userinput == '*') {
     result = number1 * number2;
+
 }
 else {
     result = number1 / number2;
+
 }
+
 
 // display the result
 
-userinput= window.prompt(`${number1} ${userinput} ${number2} = ${result}`); 
+userinput = window.prompt(`${number1} ${userinput} ${number2} = ${result}`); 
+
+function reset(){
+    document.getElementById('number1').reset();
+}

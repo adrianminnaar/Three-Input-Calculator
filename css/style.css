@@ -4,6 +4,9 @@ body {
     background-color: white;
     text-align: center;
     border: solid 15px;color: black;
+    width:30%;
+    height: 35%;
+    
     
 }
 #h1{
@@ -12,18 +15,3 @@ body {
     
 }
 
-#ifButton{
-    margin-bottom: 5px;
-    
-}
-#plus{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-}
-#multiple{
-    text-align: bottom;
-}
-#equal{
-    width: 60px;
-}
