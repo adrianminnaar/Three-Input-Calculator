@@ -32,7 +32,7 @@ switch (userinput) {
            break;
    
        default:
-           alert(('Invalid operator'));
+           alert(('Please input a number'));
            break;
    }
     
