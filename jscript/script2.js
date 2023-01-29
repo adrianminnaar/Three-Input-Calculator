@@ -32,7 +32,7 @@ switch (userinput) {
            break;
    
        default:
-           alert(('Please input a number'));
+           alert(('Please input the correct operator!'));
            break;
    }
     
